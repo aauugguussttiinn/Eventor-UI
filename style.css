@@ -100,7 +100,7 @@
   
   body {
     margin: 0;
-    font-family: var(--bs-font-sans-serif);
+    font-family: 'Ubuntu', sans-serif;
     font-size: 1.1rem;
     font-weight: 400;
     line-height: 1.5;
@@ -123,6 +123,7 @@
   }
   
   h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6 {
+    font-family: 'Righteous', cursive;
     margin-top: 0;
     margin-bottom: 0.5rem;
     font-weight: 700;
@@ -130,56 +131,67 @@
   }
   
   h1, .h1 {
+    font-family: 'Righteous', cursive;
     font-size: calc(1.4rem + 1.8vw);
   }
   
   @media (min-width: 1200px) {
     h1, .h1 {
+      font-family: 'Righteous', cursive;
       font-size: 2.75rem;
     }
   }
   
   h2, .h2 {
+    font-family: 'Righteous', cursive;
     font-size: calc(1.345rem + 1.14vw);
   }
   
   @media (min-width: 1200px) {
     h2, .h2 {
+      font-family: 'Righteous', cursive;
       font-size: 2.2rem;
     }
   }
   
   h3, .h3 {
+    font-family: 'Righteous', cursive;
     font-size: calc(1.3175rem + 0.81vw);
   }
   
   @media (min-width: 1200px) {
     h3, .h3 {
+      font-family: 'Righteous', cursive;
       font-size: 1.925rem;
     }
   }
   
   h4, .h4 {
+    font-family: 'Righteous', cursive;  
     font-size: calc(1.29rem + 0.48vw);
   }
   
   @media (min-width: 1200px) {
     h4, .h4 {
+      font-family: 'Righteous', cursive;  
       font-size: 1.65rem;
     }
   }
   
   h5, .h5 {
+    font-family: 'Righteous', cursive;
     font-size: calc(1.2625rem + 0.15vw);
   }
   
   @media (min-width: 1200px) {
     h5, .h5 {
+      font-family: 'Righteous', cursive;
       font-size: 1.375rem;
     }
   }
   
   h6, .h6 {
+    font-family: 'Righteous', cursive;
     font-size: 1.1rem;
   }
   
@@ -283,7 +295,7 @@
   code,
   kbd,
   samp {
-    font-family: var(--bs-font-monospace);
+    font-family: 'Ubuntu', sans-serif;
     font-size: 1em;
     direction: ltr /* rtl:ignore */;
     unicode-bidi: bidi-override;
@@ -3086,7 +3098,7 @@
   
   .btn {
     display: inline-block;
-    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    font-family: 'Ubuntu', sans-serif;
     font-weight: 400;
     line-height: 1.5;
     color: #343a40;
@@ -3207,19 +3219,19 @@
   
   .btn-success {
     color: #fff;
-    background-color: #02b875;
-    border-color: #02b875;
+    background-color: #07700A;
+    border-color: #07700A;
   }
   
   .btn-success:hover {
     color: #fff;
-    background-color: #029c63;
+    background-color: #065a08;
     border-color: #02935e;
   }
   
   .btn-check:focus + .btn-success, .btn-success:focus {
     color: #fff;
-    background-color: #029c63;
+    background-color: #065a08;
     border-color: #02935e;
     box-shadow: 0 0 0 0.25rem rgba(40, 195, 138, 0.5);
   }
@@ -3240,8 +3252,8 @@
   
   .btn-success:disabled, .btn-success.disabled {
     color: #fff;
-    background-color: #02b875;
-    border-color: #02b875;
+    background-color: #07700A;
+    border-color: #07700A;
   }
   
   .btn-info {
@@ -6148,7 +6160,7 @@
     z-index: 1080;
     display: block;
     margin: 0;
-    font-family: var(--bs-font-sans-serif);
+    font-family: 'Ubuntu', sans-serif;
     font-style: normal;
     font-weight: 400;
     line-height: 1.5;
@@ -6261,7 +6273,7 @@
     z-index: 1070;
     display: block;
     max-width: 276px;
-    font-family: var(--bs-font-sans-serif);
+    font-family: 'Ubuntu', sans-serif;
     font-style: normal;
     font-weight: 400;
     line-height: 1.5;
@@ -7990,7 +8002,7 @@
   }
   
   .font-monospace {
-    font-family: var(--bs-font-monospace) !important;
+    font-family: 'Ubuntu', sans-serif !important;
   }
   
   .fs-1 {
@@ -11085,7 +11097,7 @@
   }
   
   p {
-    font-family: Georgia, Cambria, "Times New Roman", Times, serif;
+    font-family: 'Ubuntu', sans-serif;
   }
   
   blockquote {
@@ -11098,7 +11110,7 @@
   
   .lead {
     color: #868e96;
-    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    font-family: 'Ubuntu', sans-serif;
   }
   
   table,
@@ -11123,7 +11135,7 @@
   
   .alert,
   .alert p {
-    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    font-family: 'Ubuntu', sans-serif;
   }
   
   .alert a,
